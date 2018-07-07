@@ -4,5 +4,5 @@ int main() // C++ programs start by executing the func main
 {
   cout<<"Hello,World!\n\n\n";
   keep_window_open();
-  //return 0;
+  return 0;
 }
