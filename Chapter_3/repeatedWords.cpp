@@ -3,12 +3,15 @@
 
 int main()
 {
+    int number_of_words = 0;
     string previous=" ";
-    cout<<"Please enter as many words as you'de like for comparison\n";
+    cout<<"\nPlease enter as many words as you'de like for comparison\n";
     string current;
     while(cin>>current){
+      ++number_of_words;
       if(previous==current)
-        cout<<"repeated word: "<<current<<"\n";
+        cout<<"Word number " <<number_of_words
+          <<" repeated: " <<current <<"\n";
       previous = current;
     }
 
